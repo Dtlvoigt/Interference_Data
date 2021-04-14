@@ -24,7 +24,7 @@ namespace Interference_Data
         //list to hold all interference data sets
         public static List<interferenceSet> interferenceData;
 
-        //loads all folders in Log into string array
+        //loads all folders in Logs folder into string array
         public static string[] loadFiles(string path)
         {
             if (Directory.Exists(path))
